@@ -77,7 +77,6 @@ app.post('/register', async (req, res) => {
 });
 
 
-
 app.get('/users',async(req,res)=>{
     try{
         const userQuery=`select * from users;`
